@@ -31,3 +31,11 @@
 .bio-side-photo img{width:100%!important;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important}
 @media(max-width:1150px){.bio-side-photo{width:90px!important;max-width:90px!important}}
 @media(max-width:650px){.bio-side-photo{width:95px!important;max-width:95px!important;order:0}}
+
+/* Final About portrait sizing: proportional to site portfolio cards */
+.about-copy-with-photo{grid-template-columns:minmax(0,1fr) minmax(220px,28%);gap:32px;align-items:center}
+.bio-side-photo{width:100%!important;max-width:280px!important;justify-self:end!important;margin:0!important;padding:5px!important;border:1px solid var(--line)!important;background:#090806!important}
+.bio-side-photo img{display:block!important;width:100%!important;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important}
+@media(max-width:1150px){.about-copy-with-photo{grid-template-columns:minmax(0,1fr) 220px}.bio-side-photo{width:100%!important;max-width:220px!important}}
+@media(max-width:900px){.about-copy-with-photo{grid-template-columns:minmax(0,1fr) minmax(200px,28%)}.bio-side-photo{max-width:240px!important}}
+@media(max-width:650px){.about-copy-with-photo{grid-template-columns:1fr}.bio-side-photo{width:min(65%,240px)!important;max-width:240px!important;justify-self:center!important;order:0!important;margin-top:18px!important}}
