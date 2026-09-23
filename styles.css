@@ -25,3 +25,9 @@
 @media(max-width:1150px){.about-copy-with-photo{grid-template-columns:1fr 190px;gap:24px}}
 @media(max-width:900px){.about-copy-with-photo{grid-template-columns:minmax(0,1fr) 230px}}
 @media(max-width:650px){.about-copy-with-photo{grid-template-columns:1fr}.bio-side-photo{width:min(82%,320px);justify-self:center;order:-1}}
+
+/* Scale down About portrait */
+.bio-side-photo{width:95px!important;max-width:95px!important;justify-self:center;padding:3px}
+.bio-side-photo img{width:100%!important;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important}
+@media(max-width:1150px){.bio-side-photo{width:90px!important;max-width:90px!important}}
+@media(max-width:650px){.bio-side-photo{width:95px!important;max-width:95px!important;order:0}}
