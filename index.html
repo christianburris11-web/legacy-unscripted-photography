@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Legacy Unscripted Photography — portraits, editorial and lifestyle photography in the Shreveport–Bossier area.">
+<title>Legacy Unscripted Photography | Capture Your Legacy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav"><a class="brand" href="#home">LEGACY <span>UNSCRIPTED</span></a><button class="menu" aria-label="Open menu">☰</button><nav><a href="#portfolio">Portfolio</a><a href="#about">About</a><a href="#sessions">Sessions</a><a href="#web">Web Design</a><a class="nav-cta" href="#book">Book</a></nav></header>
+<main>
+<section id="home" class="hero"><div class="hero-mark">L U</div><p class="eyebrow">SHREVEPORT • BOSSIER • AVAILABLE TO TRAVEL</p><h1>Legacy Unscripted<br><em>Photography</em></h1><p class="tagline">Capture Your Legacy.</p><div class="hero-actions"><a class="btn gold" href="#book">Book a Session</a><a class="btn" href="#portfolio">View Portfolio</a></div><div class="scroll">SCROLL ↓</div></section>
+<section id="portfolio" class="section"><div class="section-head"><p class="eyebrow">SELECTED WORK</p><h2>Stories, <em>Unscripted.</em></h2><p>Portraits with personality. Editorial frames with intention. Real moments worth remembering.</p></div>
+<div class="gallery">
+<figure class="shot tall"><div class="placeholder">PORTRAIT</div><figcaption>Portraits</figcaption></figure>
+<figure class="shot"><div class="placeholder">EDITORIAL</div><figcaption>Editorial</figcaption></figure>
+<figure class="shot"><div class="placeholder">DETAIL</div><figcaption>Details</figcaption></figure>
+<figure class="shot wide"><div class="placeholder">LIFESTYLE</div><figcaption>Lifestyle</figcaption></figure>
+</div><p class="gallery-note">Watermarked portfolio photographs are being prepared for the live gallery.</p></section>
+<section id="about" class="section split"><div class="about-card"><div class="monogram">CB</div><p>PHOTOGRAPHER • DEVELOPER • CREATOR</p></div><div><p class="eyebrow">MEET THE PHOTOGRAPHER</p><h2>Hi, I'm <em>Christian.</em></h2><p>I'm a 20-year-old photographer and website developer with an even bigger dream of becoming a full-time content creator. Based in the Shreveport–Bossier area, I believe photography should be more than simply taking pictures—it should be an experience where you feel comfortable, confident, and completely yourself.</p><p>My goal is to create an environment where you can trust my professionalism while still feeling relaxed enough to let your personality shine. I'm willing to travel for the right shoot, because your memories don't have to happen close to home.</p><p>Most importantly, I care about the final result. <strong>I won't stop shooting until we've captured something you're genuinely excited about.</strong></p><p class="signature">Let's capture your legacy.</p></div></section>
+<section id="sessions" class="section dark"><div class="section-head"><p class="eyebrow">THE EXPERIENCE</p><h2>Choose Your <em>Legacy.</em></h2><p>Competitive, approachable sessions designed to give you polished photographs without sacrificing the experience.</p></div>
+<div class="pricing">
+<article><p class="package">THE MINI LEGACY</p><h3>$85</h3><p>20 minutes</p><p>1 location • 1 outfit</p><p>5 professionally edited images</p><a href="#book">Book Mini →</a></article>
+<article class="featured"><span>MOST POPULAR</span><p class="package">THE SIGNATURE LEGACY</p><h3>$135</h3><p>45 minutes</p><p>1 location • up to 2 outfits</p><p>10 professionally edited images</p><a href="#book">Book Signature →</a></article>
+<article><p class="package">THE FULL LEGACY</p><h3>$195</h3><p>60–75 minutes</p><p>Up to 2 nearby locations • 3 outfits</p><p>15 professionally edited images</p><a href="#book">Book Full →</a></article>
+<article><p class="package">THE UNSCRIPTED EXPERIENCE</p><h3>$260</h3><p>Up to 2 hours</p><p>Multiple looks & nearby locations</p><p>25 edited images • priority gallery</p><a href="#book">Book Unscripted →</a></article>
+</div><p class="fine">Travel within the Shreveport–Bossier area is included. Travel outside the area may require an additional fee. Events, brands and custom projects are quoted individually.</p></section>
+<section id="web" class="section web"><p class="eyebrow">BEYOND THE LENS</p><h2>Your story deserves a <em>home online.</em></h2><p>I don't just photograph brands—I build for them. Need a polished website for your business, portfolio or next idea? Ask about custom website development by Christian Burris.</p><a class="btn gold" href="#book">Ask About Web Design</a></section>
+<section id="book" class="section booking"><div><p class="eyebrow">READY WHEN YOU ARE</p><h2>Book Your <em>Session.</em></h2><p>Tell me what you're envisioning. This form prepares your inquiry; booking is confirmed only after you receive a response and complete any required retainer.</p></div>
+<form id="bookingForm"><div class="row"><label>Name<input required name="name" autocomplete="name"></label><label>Email<input required type="email" name="email" autocomplete="email"></label></div>
+<div class="row"><label>Phone<input name="phone" type="tel" autocomplete="tel"></label><label>Session<select required name="session"><option value="">Select a session</option><option>Mini Legacy — $85</option><option>Signature Legacy — $135</option><option>Full Legacy — $195</option><option>Unscripted Experience — $260</option><option>Event / Brand / Custom</option><option>Website Development</option></select></label></div>
+<div class="row"><label>Preferred date<input type="date" name="date"></label><label>Preferred time<input type="time" name="time"></label></div>
+<label>Tell me about your vision<textarea required name="details" rows="5" placeholder="Location ideas, occasion, style, number of people, questions..."></textarea></label>
+<button class="btn gold" type="submit">Prepare Booking Inquiry</button><p id="formStatus" aria-live="polite"></p></form></section>
+</main>
+<footer><div class="footer-brand">LEGACY <span>UNSCRIPTED</span></div><p>Photography by Christian Burris • Shreveport–Bossier Area</p><p>© <span id="year"></span> Legacy Unscripted Photography. All rights reserved.</p><p class="footer-tag">Capture Your Legacy.</p></footer>
+<script src="script.js"></script></body></html>
